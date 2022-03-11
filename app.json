@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "PlantUI",
-    "slug": "PlantUI",
+    "name": "Weather App",
+    "slug": "WeatherApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
