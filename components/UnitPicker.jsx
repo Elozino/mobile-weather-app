@@ -10,10 +10,14 @@ const UnitPicker = ({ unitsSystem, setUnitsSystem }) => {
         selectedValue={unitsSystem}
         onValueChange={(item) => setUnitsSystem(item)}
         mode="dropdown"
-        style={styles.pickerText}
+        style={styles.pickerContainer}
       >
         <Picker.Item label="C" value="metric" style={styles.pickerText} />
-        <Picker.Item label="F" value="imperial" style={styles.pickerText} />
+        <Picker.Item
+          label="F"
+          value="imperial"
+          style={styles.pickerText}
+        />
       </Picker>
     </View>
   );
@@ -29,8 +33,12 @@ const styles = StyleSheet.create({
     height: 50,
     width: 100,
   },
-  pickerText: {
+  pickerContainer: {
     fontSize: 20,
-    color: "#744596"
+    color: "#fff",
+  },
+  pickerText: {
+    color: "#567",
+    fontSize: 20,
   },
 });

@@ -5,7 +5,7 @@ import { Ionicons } from "@expo/vector-icons";
 const ReloadIcon = ({ load }) => {
   return (
     <View style={styles.container}>
-      <Ionicons name="md-refresh" size={20} color="black" onPress={load} />
+      <Ionicons name="md-refresh" size={20} color="#fff" onPress={load} />
     </View>
   );
 };

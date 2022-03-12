@@ -58,7 +58,7 @@ export default function App() {
   if (currentWeather) {
     return (
       <View style={styles.container}>
-        <StatusBar style="auto" />
+        <StatusBar style="light" />
         <View style={styles.main}>
           <UnitPicker
             unitsSystem={unitsSystem}
@@ -78,15 +78,15 @@ export default function App() {
   } else if (errorMessage) {
     return (
       <View style={styles.container}>
-        <StatusBar style="auto" />
+        <StatusBar style="light" />
         <Text>{errorMessage}</Text>
       </View>
     );
   } else {
     return (
       <View style={styles.container}>
-        <StatusBar style="auto" />
-        <ActivityIndicator color="#bc2b78" size="large" />
+        <StatusBar style="light" />
+        <ActivityIndicator color="#fff" size="large" />
       </View>
     );
   }
@@ -95,7 +95,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#765432",
     alignItems: "center",
     justifyContent: "center",
   },

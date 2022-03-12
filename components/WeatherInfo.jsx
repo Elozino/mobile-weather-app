@@ -42,14 +42,17 @@ const styles = StyleSheet.create({
   },
   weatherDescription: {
     textTransform: "uppercase",
+    color: "#fff",
   },
   main: {
     fontSize: 18,
     fontSize: 20,
     fontWeight: "bold",
+    color: "#ff8",
   },
   cityName: {
     fontWeight: "bold",
     textTransform: "uppercase",
+    color: "#fff",
   },
 });

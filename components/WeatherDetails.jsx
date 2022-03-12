@@ -35,7 +35,7 @@ const WeatherDetails = ({ currentWeather, unitsSystem }) => {
               <Text
                 style={{
                   ...styles.weatherDetailsItem,
-                  color: "grey",
+                  color: "#ff38",
                   fontSize: 20,
                   marginTop: 2,
                 }}
@@ -57,7 +57,7 @@ const WeatherDetails = ({ currentWeather, unitsSystem }) => {
               <Text
                 style={{
                   ...styles.weatherDetailsItem,
-                  color: "grey",
+                  color: "#ff38",
                   fontSize: 20,
                   marginTop: 2,
                 }}
@@ -92,7 +92,7 @@ const WeatherDetails = ({ currentWeather, unitsSystem }) => {
               <Text
                 style={{
                   ...styles.weatherDetailsItem,
-                  color: "grey",
+                  color: "#ff38",
                   fontSize: 20,
                   marginTop: 2,
                 }}
@@ -114,7 +114,7 @@ const WeatherDetails = ({ currentWeather, unitsSystem }) => {
               <Text
                 style={{
                   ...styles.weatherDetailsItem,
-                  color: "grey",
+                  color:"#ff38",
                   fontSize: 20,
                   marginTop: 2,
                 }}
@@ -152,5 +152,6 @@ const styles = StyleSheet.create({
   weatherDetailsItem: {
     fontWeight: "bold",
     alignSelf: "flex-end",
+    color: "#fff",
   },
 });
